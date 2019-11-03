@@ -1,0 +1,2 @@
+# FizzBuzzTestInokinn
+テストコードに関するサンプルリポジトリです。
