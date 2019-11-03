@@ -1,2 +1,2 @@
-# FizzBuzzTestInokinn
+# これはなに
 テストコードに関するサンプルリポジトリです。
