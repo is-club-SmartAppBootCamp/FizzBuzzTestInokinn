@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     fun tapCalculationButton(view: View) {
         // 計算処理を行う
-        val num1Str = (findViewById<EditText>(R.id.num1)).text.toString()
-        val num2Str = (findViewById<EditText>(R.id.num2)).text.toString()
-        val symbolStr = (findViewById<Spinner>(R.id.spinner)).selectedItem.toString()
+        val num1Str = num1.text.toString()
+        val num2Str = num2.text.toString()
+        val symbolStr = spinner.selectedItem.toString()
         val result = Calculator().execCalculation(num1Str, num2Str, symbolStr)
         resultTextView.text = num1Str + symbolStr + num2Str + "=" + result.toString()
     }
