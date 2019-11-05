@@ -24,6 +24,6 @@ class MainActivity : AppCompatActivity() {
         val num2Str = num2.text.toString()
         val symbolStr = spinner.selectedItem.toString()
         val result = Calculator().execCalculation(num1Str, num2Str, symbolStr)
-        resultTextView.text = num1Str + symbolStr + num2Str + "=" + result.toString()
+        resultTextView.text = "$num1Str $symbolStr $num2Str = $result"
     }
 }
